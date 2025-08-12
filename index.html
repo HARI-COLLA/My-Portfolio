@@ -1,0 +1,231 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Harinath Portfolio</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+  <style>
+    /* ✅ College background image */
+    body::before {
+      content: "";
+      background-image: url('images/college.jpg');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      background-size: cover;
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0.7;
+      z-index: -1;
+      pointer-events: none;
+    }
+
+    /* ✅ Remove dark overlay from top section */
+    #intro {
+      background: transparent !important;
+    }
+
+    .image.fit img {
+      height: 250px;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .centered-block {
+      max-width: 900px;
+      margin: 0 auto;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+
+    .centered-block h2::after {
+      content: "";
+      display: block;
+      width: 60px;
+      height: 3px;
+      background: #f56a6a;
+      margin: 10px auto 30px;
+    }
+
+    .centered-block ul {
+      list-style: none;
+      padding: 0;
+      margin: 0 auto;
+      display: inline-block;
+      text-align: left;
+    }
+
+    .card-box {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      background-color: #fff;
+      text-align: center;
+    }
+
+    .card-box img {
+      border-radius: 8px;
+      height: 250px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body class="is-preload">
+
+  <div id="wrapper" class="fade-in">
+
+    <!-- Intro -->
+    <div id="intro">
+      <div style="display: flex; flex-direction: column; align-items: center;">
+       <img src="images/myphoto.jpg" alt="Harinath Photo"
+     style="border-radius: 50%; width: 180px; height: 180px; object-fit: cover; object-position: top; margin-bottom: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+
+        <h1 style="font-size: 2.5rem; color: #fff;">Harinath Portfolio</h1>
+        <p style="font-size: 1.2rem; color: #d1d1d1; max-width: 600px; text-align: center;">
+          Showcasing my education, skills, achievements, and experience in AWS, DevOps, and Machine Learning.
+        </p>
+        <a href="resume.pdf" class="button primary" download style="margin-top: 10px;">📄 Download Resume</a>
+        <ul class="actions" style="margin-top: 20px;">
+          <li><a href="#main" class="button icon solid solo fa-arrow-down scrolly">Explore</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header id="header">
+      <a href="index.html" class="logo">BuiltByHarinath</a>
+    </header>
+
+    <!-- Nav -->
+    <nav id="nav">
+      <ul class="links">
+        <li class="active"><a href="index.html">Home</a></li>
+      </ul>
+      <ul class="icons">
+        <li><a href="https://www.linkedin.com/in/hari-mallangi-0085a1300/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+        <li><a href="https://github.com/Hari-Mallangi" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+      </ul>
+    </nav>
+
+    <!-- Main -->
+    <div id="main">
+
+      <!-- Education -->
+      <section class="centered-block">
+        <header><h2>Education</h2></header>
+        <p><strong>B.Tech in Computer Science and Engineering</strong><br/>
+          Alliance University, Bangalore<br/>
+          2022 – 2026<br/>
+          GPA: 8.5 / 10</p>
+       
+      </section>
+
+      <!-- Skills -->
+      <section class="centered-block">
+        <header><h2>Skills</h2></header>
+        <ul>
+          <li><strong>Languages:</strong> C, C++, Java, Python, Shell Scripting</li>
+          <li><strong>Cloud Platforms:</strong> AWS, Azure, GCP</li>
+          <li><strong>DevOps Tools:</strong> Jenkins, Docker, Kubernetes, GitHub, Terraform, Ansible, Argo CD</li>
+          <li><strong>Data Tools:</strong> Pandas, NumPy, Matplotlib, Scikit-learn</li>
+          <li><strong>Operating Systems:</strong> Linux (scripting, networking, user/file management)</li>
+        </ul>
+      </section>
+
+      <!-- Achievements -->
+      <section class="centered-block">
+        <header><h2>Achievements</h2></header>
+        <ul>
+          <li>🏆 Secured <strong>3rd place</strong> in the <strong>Code Sangram Hackathon</strong></li>
+          <li>🚀 Completed <strong>15+ projects</strong> with <strong>Nextwork Community</strong> on AWS</li>
+          <li>📚 Selected for <strong>State Level Spell-Bee Competition</strong></li>
+        </ul>
+      </section>
+
+      <!-- Projects -->
+      <section class="posts">
+        <article>
+          <header><h2><a href="#">AWS Projects</a></h2></header>
+          <div class="image fit"><img src="images/AWS log.jpg" alt="AWS Projects" /></div>
+          <p>Projects hosted on AWS with automated deployment, scalability, and CI/CD pipelines.</p>
+          <ul class="actions special">
+            <li><a href="https://github.com/Hari-Mallangi/AWS-Projects" class="button">View Projects</a></li>
+          </ul>
+        </article>
+
+        <article>
+          <header><h2><a href="#">AI and ML Project</a></h2></header>
+          <div class="image fit"><img src="images/AI and ML.jpg" alt="AI ML Project" /></div>
+          <p>Unsupervised anomaly detection system built with Python, Scikit-learn, TensorFlow & EDA techniques.</p>
+          <ul class="actions special">
+            <li><a href="https://github.com/malay42/Unsupervised-Anomaly-Detection-on-Healthcare-providers-data_Infosys_Internship_Oct2024/tree/M.-HARI" class="button">View Project</a></li>
+          </ul>
+        </article>
+      </section>
+
+      <!-- Certificates -->
+      <section class="centered-block">
+        <header><h2>Certificates</h2></header>
+        <div style="display: flex; justify-content: center;">
+          <div class="card-box">
+            <div class="image fit" style="margin-bottom: 20px;">
+              <img src="images/Certificate.jpg" alt="Certificates" />
+            </div>
+            <p>Recognized for completing virtual internships and professional training from Infosys Springboard, Coursera, and Udemy.</p>
+            <ul class="actions special" style="justify-content: center; display: flex;">
+              <li><a href="https://github.com/Hari-Mallangi/MY-CERTIFICATES-" class="button">View Certificates</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Info -->
+      <section class="split contact">
+        <section class="alt">
+          <h3>Address</h3>
+          <p>Andhra Pradesh<br />Kadapa, Vempalli</p>
+        </section>
+        <section>
+          <h3>Phone</h3>
+          <p><a href="#">9398199717</a></p>
+        </section>
+        <section>
+          <h3>Email</h3>
+          <p><a href="#">mallangiharinathreddy727@gmail.com</a></p>
+        </section>
+        <section>
+          <h3>Social</h3>
+          <ul class="icons alt">
+            <li><a href="https://www.linkedin.com/in/hari-mallangi-0085a1300/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+            <li><a href="https://github.com/Hari-Mallangi" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+          </ul>
+        </section>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <div id="copyright">
+      <ul><li>&copy; Harinath</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+    </div>
+
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrollex.min.js"></script>
+  <script src="assets/js/jquery.scrolly.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
