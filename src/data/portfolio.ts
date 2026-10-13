@@ -47,26 +47,34 @@ export const hero = {
 
 export const about = {
   heading: "About Me",
-  subtitle: "Passionate about building scalable, reliable, and intelligent technology solutions.",
+  subtitle: "Driven by curiosity, continuous learning, and engineering excellence.",
+  headlinePrefix: "Building Modern Solutions with",
+  headlineHighlight: "Engineering Precision",
   paragraphs: [
-    "I'm a B.Tech Computer Science graduate specializing in Cloud Computing from Alliance University, passionate about turning complex engineering challenges into clean, practical solutions across Cloud, DevOps, and AI.",
-    "Through hands-on internships and real-world projects — including building LoopCode, a live AI-powered coding platform with my team — I focus on designing dependable systems, automating workflows, and building modern software that makes an impact.",
+    "I'm a passionate B.Tech Engineering student with a deep love for technology, cloud computing, and intelligent systems. My journey in engineering is driven by curiosity and the desire to build practical solutions that create a meaningful, positive impact.",
+    "Beyond coursework and internships, you'll find me exploring modern architectures, automating workflows, and collaborating on live products like LoopCode — projects that challenge my problem-solving mindset and push the boundaries of what's possible.",
+    "I believe in the power of technology to turn ambitious ideas into dependable reality, and I'm committed to continuous learning, adaptability, and growth in this ever-evolving field.",
   ],
   highlights: [
     {
-      title: "Cloud & Automation",
-      description: "Designing scalable cloud architectures, containerized workloads, and automated delivery workflows.",
-      icon: "Cloud" as const,
+      title: "B.Tech Engineering",
+      description: "Pursuing excellence in Computer Science & Cloud Computing with a focus on innovative problem-solving",
+      icon: "GraduationCap" as const,
     },
     {
-      title: "Software & Reliability",
-      description: "Building dependable applications with modern engineering practices, monitoring, and clean architecture.",
-      icon: "Activity" as const,
+      title: "Problem Solver",
+      description: "Passionate about designing efficient, reliable solutions to complex technical challenges",
+      icon: "Target" as const,
     },
     {
-      title: "AI & Intelligent Systems",
-      description: "Building AI-powered products like LoopCode and exploring LLMs, RAG, and agentic workflows.",
-      icon: "Sparkles" as const,
+      title: "Tech Enthusiast",
+      description: "Always exploring cutting-edge cloud, DevOps, and AI technologies and their real-world applications",
+      icon: "Heart" as const,
+    },
+    {
+      title: "Quality Focused",
+      description: "Committed to delivering high-quality, scalable, and maintainable engineering solutions",
+      icon: "Award" as const,
     },
   ],
 };

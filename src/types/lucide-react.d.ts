@@ -40,4 +40,6 @@ declare module 'lucide-react' {
   export const ArrowUp: Icon;
   export const Download: Icon;
   export const Phone: Icon;
+  export const Target: Icon;
+  export const ChevronDown: Icon;
 }

@@ -3,7 +3,7 @@
 import { GraduationCap, Award } from "lucide-react";
 import SectionHeading from "@/components/SectionHeading";
 import { Reveal, SpotlightCard } from "@/components/Motion";
-import { education, certification, achievement } from "@/data/portfolio";
+import { education, achievement } from "@/data/portfolio";
 
 export default function Education() {
   return (
@@ -37,27 +37,8 @@ export default function Education() {
             </SpotlightCard>
           </Reveal>
 
-          {/* Certification */}
-          <Reveal delay={0.1}>
-            <SpotlightCard spotlightColor="rgba(255, 153, 0, 0.14)">
-              <div className="mb-4 flex items-center gap-3">
-                <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-[#FF9900]/10 text-[#FF9900] transition-transform group-hover:scale-110 duration-200">
-                  <Award className="h-5 w-5" />
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold text-white">{certification.name}</h3>
-                  <p className="text-base text-slate-300">{certification.provider}</p>
-                </div>
-              </div>
-              <div className="flex justify-between border-t border-white/10 pt-4">
-                <span className="text-sm font-medium text-slate-400">Date</span>
-                <span className="text-sm text-white">{certification.date}</span>
-              </div>
-            </SpotlightCard>
-          </Reveal>
-
           {/* Achievement */}
-          <Reveal delay={0.2}>
+          <Reveal delay={0.1}>
             <SpotlightCard spotlightColor="rgba(245, 158, 11, 0.14)">
               <div className="mb-4 flex items-center gap-3">
                 <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-amber-500/10 text-amber-400 transition-transform group-hover:scale-110 duration-200">
