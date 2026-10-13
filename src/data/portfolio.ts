@@ -7,16 +7,17 @@ export const profile = {
   name: "Mallangi Harinath Reddy",
   shortName: "Harinath",
   monogram: "HR",
-  headline: "Cloud & DevOps Engineer | SRE | Building LoopCode",
-  title: "Cloud & DevOps Engineer | Site Reliability Engineering",
+  headline: "Engineering Creative Solutions",
+  title: "BTech Engineering Student | Cloud Computing Enthusiast | AI Enthusiast",
+  phone: "+91 9398199717",
   email: "mallangiharinathreddy727@gmail.com",
   linkedin: "https://www.linkedin.com/in/hari-mallangi-0085a1300/",
   github: "https://github.com/HARI-COLLA",
   loopcodeUrl: "https://loopcode.heksync.in/",
   resumeUrl: "/Harinath_Mallangi_DevOps.pdf",
   objective:
-    "Open to full-time opportunities in Cloud Engineering, DevOps, Site Reliability Engineering, and relevant entry-level engineering roles.",
-  workPreferences: "Open to on-site, hybrid, and remote opportunities worldwide.",
+    "Passionate about building innovative technology solutions that make a difference.",
+  workPreferences: "Open to full-time opportunities anywhere in India (On-site, Hybrid, or Remote).",
 };
 
 export const navLinks = [
@@ -31,37 +32,40 @@ export const navLinks = [
 export const hero = {
   introLabel: "HELLO, I'M",
   name: profile.name,
-  title: profile.title,
-  paragraph1:
-    "I build and automate cloud infrastructure, streamline software delivery, and deploy reliable cloud-native applications. With hands-on experience across AWS, Docker, Kubernetes, Terraform, and CI/CD, I enjoy turning engineering challenges into practical solutions.",
-  paragraph2:
-    "I'm also contributing to LoopCode, a live AI-powered coding application built with my team, while expanding my knowledge of AI engineering and intelligent systems.",
-  techPills: ["AWS", "Docker", "Kubernetes", "Terraform", "CI/CD", "AI Engineering"],
+  taglineHighlight: "Engineering",
+  taglineRest: "Creative Solutions",
+  roleLine: "BTech Engineering Student | Cloud Computing Enthusiast | AI Enthusiast",
+  summary:
+    "Passionate about building innovative technology solutions that make a difference",
+  stats: [
+    { value: "10+", label: "Projects" },
+    { value: "Fresher", label: "Years Experience" },
+    { value: "100%", label: "Dedication" },
+  ],
+  techPills: ["Cloud Computing", "DevOps", "AI & LLMs", "Software Engineering"],
 };
 
 export const about = {
   heading: "About Me",
-  subtitle: "Engineering reliable systems and exploring intelligent applications.",
+  subtitle: "Passionate about building scalable, reliable, and intelligent technology solutions.",
   paragraphs: [
-    "I'm a Computer Science graduate specializing in Cloud Computing from Alliance University, with hands-on experience gained through a DevOps Engineer internship, an AWS Cloud internship, and practical engineering projects.",
-    "My work and learning interests include cloud infrastructure, Infrastructure as Code, containerization, Kubernetes orchestration, CI/CD automation, GitOps, monitoring, and reliability engineering.",
-    "I'm also expanding my knowledge of Machine Learning, Large Language Models, Retrieval-Augmented Generation, and AI agents.",
-    "One of my key product contributions is LoopCode, a live AI-powered coding application that I'm building with my teammates. I enjoy collaborating on practical products, solving engineering problems, and continuously improving my technical skills.",
+    "I'm a B.Tech Computer Science graduate specializing in Cloud Computing from Alliance University, passionate about turning complex engineering challenges into clean, practical solutions across Cloud, DevOps, and AI.",
+    "Through hands-on internships and real-world projects — including building LoopCode, a live AI-powered coding platform with my team — I focus on designing dependable systems, automating workflows, and building modern software that makes an impact.",
   ],
   highlights: [
     {
-      title: "Cloud & DevOps",
-      description: "Infrastructure automation, cloud-native deployment, and delivery workflows.",
+      title: "Cloud & Automation",
+      description: "Designing scalable cloud architectures, containerized workloads, and automated delivery workflows.",
       icon: "Cloud" as const,
     },
     {
-      title: "Reliability Engineering",
-      description: "Monitoring, troubleshooting, automation, and dependable application operations.",
+      title: "Software & Reliability",
+      description: "Building dependable applications with modern engineering practices, monitoring, and clean architecture.",
       icon: "Activity" as const,
     },
     {
-      title: "AI-Powered Products",
-      description: "Contributing to LoopCode and exploring LLMs, RAG, and AI agents.",
+      title: "AI & Intelligent Systems",
+      description: "Building AI-powered products like LoopCode and exploring LLMs, RAG, and agentic workflows.",
       icon: "Sparkles" as const,
     },
   ],
@@ -333,5 +337,5 @@ export const learningFocus = {
 export const contact = {
   heading: "Let's Build Something Great",
   description:
-    "I'm open to full-time opportunities in Cloud Engineering, DevOps, Site Reliability Engineering, and relevant entry-level engineering roles. I'm also interested in connecting with people building useful cloud-native and AI-powered products.",
+    "Open to full-time engineering opportunities across India, project collaborations, and building innovative technology solutions.",
 };

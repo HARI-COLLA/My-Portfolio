@@ -38,4 +38,6 @@ declare module 'lucide-react' {
   export const Users: Icon;
   export const FileText: Icon;
   export const ArrowUp: Icon;
+  export const Download: Icon;
+  export const Phone: Icon;
 }

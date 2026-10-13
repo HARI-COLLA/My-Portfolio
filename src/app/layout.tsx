@@ -15,20 +15,20 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Mallangi Harinath Reddy | Cloud & DevOps Engineer | SRE",
+  title: "Mallangi Harinath Reddy | Engineering Creative Solutions",
   description:
-    "Portfolio of Mallangi Harinath Reddy — Cloud & DevOps Engineer with hands-on experience in AWS, Docker, Kubernetes, Terraform, CI/CD, and AI-powered product development.",
+    "Portfolio of Mallangi Harinath Reddy — B.Tech Engineering Student, Cloud Computing & AI Enthusiast passionate about building innovative technology solutions.",
   openGraph: {
-    title: "Mallangi Harinath Reddy | Cloud & DevOps Engineer | SRE",
+    title: "Mallangi Harinath Reddy | Engineering Creative Solutions",
     description:
-      "Portfolio of Mallangi Harinath Reddy — Cloud & DevOps Engineer with hands-on experience in AWS, Docker, Kubernetes, Terraform, CI/CD, and AI-powered product development.",
+      "Portfolio of Mallangi Harinath Reddy — B.Tech Engineering Student, Cloud Computing & AI Enthusiast passionate about building innovative technology solutions.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mallangi Harinath Reddy | Cloud & DevOps Engineer | SRE",
+    title: "Mallangi Harinath Reddy | Engineering Creative Solutions",
     description:
-      "Portfolio of Mallangi Harinath Reddy — Cloud & DevOps Engineer with hands-on experience in AWS, Docker, Kubernetes, Terraform, CI/CD, and AI-powered product development.",
+      "Portfolio of Mallangi Harinath Reddy — B.Tech Engineering Student, Cloud Computing & AI Enthusiast passionate about building innovative technology solutions.",
   },
 };
 
